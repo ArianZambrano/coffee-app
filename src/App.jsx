@@ -1,9 +1,13 @@
 import React from 'react';
 import Navbar from './components/Navbar';
+import OrderForm from './components/OrderForm';
 
 const App = () => {
     return(
-        <Navbar />
+        <div>
+            <Navbar />
+            <OrderForm />
+        </div>
     )
 }
 
