@@ -1,0 +1,22 @@
+{
+    "coffees" : [ {
+      "name" : "Americano"
+    }, {
+      "name" : "Flat White"
+    }, {
+      "name" : "Cappuccino"
+    }, {
+      "name" : "Latte"
+    }, {
+      "name" : "Espresso"
+    }, {
+      "name" : "Machiato"
+    }, {
+      "name" : "Mocha"
+    }, {
+      "name" : "Hot Chocolate"
+    }, {
+      "name" : "Tea"
+    } ]
+  }
+  
