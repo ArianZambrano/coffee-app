@@ -23,7 +23,7 @@ const NavbarItem = styled.li`
 ` 
 
 const NavbarLink = styled.a`
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: black;
     text-decoration: none;
     font-family: 'Roboto Mono', monospace;
@@ -38,17 +38,20 @@ const Navbar = () => {
                 </NavbarTitle>
                 <NavbarList className="Navbar-List">
                     <NavbarItem className="Navbar-Item">
-                        <NavbarLink className="Navbar-Item-Link" href="#" target="_blank">
+                        <NavbarLink className="Navbar-Item-Link" 
+                                    href="#" target="_blank">
                             Home
                         </NavbarLink>
                     </NavbarItem>
                     <NavbarItem className="Navbar-Item">
-                        <NavbarLink className="Navbar-Item-Link" href="https://github.com/ArianZambrano" target="_blank">
+                        <NavbarLink className="Navbar-Item-Link" 
+                                    href="https://github.com/ArianZambrano" target="_blank">
                             About Me
                         </NavbarLink>
                     </NavbarItem>
                     <NavbarItem className="Navbar-Item">
-                        <NavbarLink className="Navbar-Item-Link" href="https://github.com/ArianZambrano" target="blank">
+                        <NavbarLink className="Navbar-Item-Link" 
+                                    href="https://github.com/ArianZambrano" target="blank">
                             Contact
                         </NavbarLink>
                     </NavbarItem>
